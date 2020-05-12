@@ -8,7 +8,8 @@ import java.sql.*;
                     Connection conn = getConnection();
 
                     // Setup statement
-                    String stmt = getBody(conn);
+                    //String stmt = getBody(conn);
+                    //String stmt = getLinks(conn);
 
                     // Close conn and stmt
                     conn.close();
@@ -16,6 +17,29 @@ import java.sql.*;
                 } catch(SQLException ex) {
                     ex.printStackTrace();
                 }
+            }
+
+            public static String[] getLinks(Connection conn) throws SQLException {
+                Statement stmt = conn.createStatement();
+                // Create query and execute
+                String strSelect = "select description from links where story_id = 1";
+                System.out.println("The SQL statement is: " + strSelect + "\n");
+
+                ResultSet rset = stmt.executeQuery(strSelect);
+
+                // Loop through the result set and print
+
+                System.out.println("The records selected are:");
+                int rowCount = 0;
+                String[] title = new String[3];
+                title[i] = "";
+                while(rset.next()) {
+                    title[rowCount] = rset.getString("description");
+                    System.out.println(title[rowCount]);
+                    ++rowCount;
+                }
+                System.out.println("Total number of records = " + rowCount);
+                return title;
             }
 
             public static String getBody(Connection conn) throws SQLException {

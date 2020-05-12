@@ -26,16 +26,21 @@ public class SoloGUI {
             conn = soloadventure.getConnection();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
+        } try {
+            textArea1.setText(soloadventure.getBody(conn));
+            String[] descriptions = soloadventure.getLinks(conn);
+            button1.setText(descriptions[0]);
+            button2.setText(descriptions[1]);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
         }
         button1.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
-                try {
-                    textArea1.setText(soloadventure.getBody(conn));
-                } catch (SQLException throwables) {
-                    throwables.printStackTrace();
-                }
+
             }
+
         });
     }
 }
