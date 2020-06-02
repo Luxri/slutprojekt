@@ -14,17 +14,35 @@ förstod hur jag skulle beskriva vad som var fel. Det jag skulle ha kunnat utvec
 Just nu så fungerar de inte som länkar och du står bara kvar på den första delen av storyn. 
 
 **Bakgrund
-Här beskriver du den teknik du har använt och motiverar detta.
-Berätta om ditt planeringsarbete.
-Redovisa din planering och dess delar.
-Tester och feedback arbete.
-
-Jag har användt mig av 
+Jag har använt mig av Github, IntelliJ, och Ubuntu för detta projekt. Jag använde mig specifikt av dessa program för jag vet hur de 
+fungerar. Jag vet hur jag länkar pärmar i Ununtu och jag vet även hur jag skapar en databas i programmet. När det kommer till IntelliJ 
+så har vi använt programmet under en längre period vilket har gjort att jag vet hur man programmerar i det. Jag använde mig av Github 
+för att kunna utnytja deras projekt funktion. I ett repository på Github så kan du skapa ett projektbräde som har olika kolonner och kort 
+som det kan stå vad som helts på. Dessa kolonner kan döpas till saker som "to do", "In progress", och "Done" medans korten kan vara små 
+delar av projektet som man måste göra. Ett kort kan tillexempel ha "skapa en while-loop för funktion X" och ligga i någon av kolonnerna
+beronde på hur klar den är. Jag använde mig specifikt av denna projektfunktion för mitt planeringsarbete före projektet verkligen tog 
+form. Jag skapade en del kort där det stod vad jag skulle behöva göra och satte ut dem i "To do" kolonnen. Jag började sen att arbeta.
+Mina kort i sig gick igenom att jag behövde få texten i min databas att bli displayad i en GUI och att jag behövde senare få knapparna 
+i GUIn att visa samma namn som länkarna i min databas. Knapparna skulle även fungera som länkar som skulle kunna ta en framåt i 
+berättelsen. När det kom till feedback så fick jag för det mesta bara feedback från Magnus som gav mig tips och hjälpte mig att få 
+programmet att fungera. Jag utförde inga tester själv, då jag inte visste vad eller hur jag skulle testa saker. Jag har testat om 
+programmet har fungerat längs vägen, men jag är osäker om detta räknas som de tester man ska genomföra.
 
 **Positiva erfarenheter
-Här beskriver du vad som har gått bra i ditt projekt och analyserar varför.
+Det som jag tyckte gick bra var att få GUIn att visa text från databsen. Jag lyckades få den att fungera efter att jag fick hjälp från 
+Magnus. Alla sakerna som gick bra, vilket inkluderar att knapparna fick samma namn som länkarna, gick just bra för att Magnus hjälpte mig
+med det. När jag väl bad om hjälp så gick programmet frammåt. 
+
 **Negativa erfarenheter
-Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
+Det som först gick mindre bra var att jag inte bad om hjälp när jag allvarligt behövde det. Om jag hade bett om hjälp tidigare så hade
+projektet troligen varit klar vid det här laget och kanpparna hade troligen fungerat. Det som gick mindre bra på den tekniska sidan var
+just att knapparna inte fungerade som länkar. Jag visste hur jag skulle få de att fungera för när jag väl stötte på problemet så var
+tiden nästan helt slut. Det som jag kommer göra i framtida projekt är att be om mer hjälp från de som kan programmera så att mitt 
+program får de bästa förutsättningarna att bli klar i tid och fungera. 
+
 **Sammanfattning
-Här redovisar du dina slutsatser, erfarenheter och lärdomar. Reflektera över din produkt och dess/dina utvecklingsmöjligheter.
-Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet
+Nu när projektet är klar så tar jag ifrån mig en viktig sak, att be om hjälp om jag behöver det. Jag har insett att bara sitta tyst och 
+inte säga till när allting går åt helvete inte fungerar, så i framtida projekt kommer jag be om mer hjälp när jag behöver det. Mot slutet
+av projektet så kunde programmet visa text från databasen och ge namn på kapparna. Länkarna fungerade dock inte, så programmet kan 
+definitivt utvecklas. Det jag skulle kunna göra är att få knapparna att fungera som länkar och sedan bygga vidare på den grafiska sidan 
+av projektet. Att ge GUIn lite stil och prydnad skulle göra den bättre än bara en textfil med knappar. 
