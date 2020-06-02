@@ -1,9 +1,6 @@
 
 ##Slutprojektet i programmering 2 
 **Inledning
-Här beskriver du kortfattat arbetets syfte/mål, arbetssätt, genomförande.
-Vad är det för något du ska utveckla, berätta om din inspiration och ideer.
-
 Målet med arbetet var att skapa en java version av soloäventyret som vi gjorde under hösten. 
 Den skulle vara en GUI som skulle ha tre knappar. Varje knapp skulle vara kopplat till en länk i databasen 
 och skulle ta spelaren längre in i storyn. Själva textrutan av GUIn skulle visa text från body delen av databasen 
